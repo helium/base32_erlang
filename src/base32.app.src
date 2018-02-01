@@ -1,11 +1,15 @@
 {application, base32,
  [
-  {description, ""},
-  {vsn, "0.1"},
+  {description, "A base32 implementation in Erlang"},
+  {vsn, "0.1.0"},
   {registered, []},
   {applications, [
                   kernel,
                   stdlib
                  ]},
-  {env, []}
+  {env, []},
+
+  {licenses, ["Apache 2.0"]},
+  {maintainers, ["Aetrion LLC", "Helium"]},
+  {links, [{"Github", "https://github.com/helium/base32_erlang"}]}
  ]}.
